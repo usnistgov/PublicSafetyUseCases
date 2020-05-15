@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<head>
+  <link rel="stylesheet" href="css/report.css">
+</head>
+
+<div class="w3-sidebar w3-bar-block" style="20%">
+{% for chapter in site.chapters %}
+    <a href= "{{ '#' | append: chapter.anchor_name }}" class="w3-bar-item w3-button">{{ chapter.name }}</a>
+{% endfor %}
+</div>
+
+<div style="margin-left: 25%">
+    {% for chapter in site.chapters %}
+        <a name="{{ chapter.anchor_name }}"></a>
+        {{ chapter.content }} 
+    {% endfor %}
+</div>
+<div width="100%">
+    foo
+</div>
