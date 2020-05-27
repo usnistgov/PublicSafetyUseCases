@@ -1,0 +1,7 @@
+<div class="site_nav">
+    <div class="w3-bar w3-black"> 
+      {% for page in site.data.site_pages.pages | sort: "order" %}
+    <a href="{{ page.url }}" class="w3-bar-item w3-button ">{{ page.title}} </a>
+    {% endfor %}
+  </div>
+</div>

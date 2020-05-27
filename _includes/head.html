@@ -16,6 +16,7 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="/css/default.css">
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-144-precomposed.png">
@@ -26,18 +27,39 @@
 
   <!-- NIST Header and exit link stuff -->
   <link rel="stylesheet" href="https://pages.nist.gov/nist-header-footer/css/nist-combined.css">
-  <link rel="stylesheet" href="css/jquery.leaveNotice.css">
-  <link rel="stylesheet" href="css/report.css">
+  <link rel="stylesheet" href="/css/jquery.leaveNotice.css">
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script type="text/javascript" src="https://pages.nist.gov/nist-header-footer/js/nist-header-footer.js"></script>
   <script type="text/javascript" src="https://pages.nist.gov/leaveNotice/js/jquery.leaveNotice-nist.min.js"></script>
   <script type="text/javascript">
+
+    function reverseString(str) {
+          return str.split("").reverse().join("");
+    }
+
     $(document).ready(function(){
+      document.querySelectorAll( "a").forEach( function(element){
+	
+	var domain = element.href.replace('http://','').replace('https://','').split(/[/?#:]/)[0];
+	if ( domain ) {
+	  is_in_domain = ( reverseString( domain ).indexOf( reverseString( "nist.gov" ) ) == 0 );
+	  if ( !( ( domain == "{{ site.host }}" ) || ( is_in_domain ) ) ){
+	    console.log( domain + " is external " );
+	    name = "external";
+	    arr = element.className.split(" ");
+	    if (arr.indexOf(name) == -1) {
+	      element.className += " " + name;
+	    }
+
+	  }
+	}
+      });
+
       $('a.external').leaveNotice();
     });
   </script>
 
   <!-- WC3 Schools css stuff -->
-  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="/css/w3.css">
 
 </head>

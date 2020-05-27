@@ -1,15 +1,19 @@
 ---
 layout: default
 ---
-    <div class="w3-sidebar w3-bar-block" style="20%">
-  <a href="#" class="w3-bar-item w3-button">Link 1</a>
-  <a href="#" class="w3-bar-item w3-button">Link 2</a>
-  <a href="#" class="w3-bar-item w3-button">Link 3</a>
-    {% for chapter in site.chapters %}
-        <a href="#" class="w3-bar-item w3-button">{{ chapter.name }}</a>
-    {% endfor %}
-    </div>
 
-    <div style="margin-left: 25%">
-      {{ content }}
-    </div>
+<div class="w3-sidebar w3-bar-block" style="20%">
+{% for chapter in site.chapters %}
+    <a href= "{{ '#' | append: chapter.anchor_name }}" class="w3-bar-item w3-button">{{ chapter.name }}</a>
+{% endfor %}
+</div>
+
+<div style="margin-left: 25%">
+    {% for chapter in site.chapters %}
+        <a name="{{ chapter.anchor_name }}"></a>
+        {{ chapter.content }} 
+    {% endfor %}
+</div>
+<div width="100%">
+    foo
+</div>
