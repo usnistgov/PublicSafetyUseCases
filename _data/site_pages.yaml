@@ -1,0 +1,29 @@
+pages:
+  - title: Home
+    icon: /nav_report.png
+    url: /
+    description: home page
+
+  - title: Introduction
+    icon: nav_report.png
+    url: /introduction.html
+    description: | 
+      Lorem ippsum dolor sit amet, consectetur adipiscing elit. Nullam elementum sem fringilla lectus pulvinar aliquet. Phasellus fringilla sodales nulla in aliquam. Ut auctor sem urna, volutpat varius massa tincidunt sed. Integer mi odio, facilisis a pretium sit amet, pulvinar et risus. Nullam efficitur a nibh a ornare. Nullam consequat lacus non nulla lobortis sodales. Suspendisse potenti. Quisque vehicula, magna eu luctus feugiat, dui nunc rutrum arcu, et pulvinar purus mi vitae nunc. Duis luctus ipsum eget sagittis imperdiet. Aliquam ultrices tincidunt odio, a hendrerit felis laoreet sit amet. Aenean accumsan a diam nec scelerisque.
+
+  - title: Example Data
+    icon: nav_data.png
+    url: usecases.html
+    description: 
+    items:
+            - title: "Use Cases"
+              url: /usecases.html
+              description: 
+            - title: "Attributes"
+              url: "/attributes.html"
+              description: 
+
+  - title: Atlas
+    icon: GitHub-Mark-120px-plus.png
+    url: http://github.com
+    external: True
+    description: 
