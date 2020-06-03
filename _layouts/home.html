@@ -11,7 +11,7 @@ layout: default
   {% for item in site.data.site_pages.pages %}
     {% if item.title != "Home" %}
       <div class="home_nav_item">
-	<a href="{{ item.url }}"><img src="media/{{ item.icon }}" class="icon"><figcaption class="home_nav">{{ item.title }}</figcaption></a>
+	<a href="{{ item.url }}"><img src="img/{{ item.icon }}" class="icon"><figcaption class="home_nav">{{ item.title }}</figcaption></a>
       </div>
       <div class="home_nav_description">
 	  {{ item.description }}

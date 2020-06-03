@@ -1,6 +1,6 @@
 pages:
   - title: Home
-    icon: /nav_report.png
+    icon: nav_report.png
     url: /
     description: home page
 
