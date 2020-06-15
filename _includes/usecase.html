@@ -1,49 +1,18 @@
 
 
 <div id="{{ include.usecaseid }}" class="usecase">
-
   <div class="ucv_name"><h1> {{ site.data.usecases[include.usecaseid].name }}</h1></div>
 
   <div class="ucv_container">
+    {% include usecasedescription.html usecaseid=include.usecaseid %}
 
-    <div class="ucv_description">{{ site.data.usecases[include.usecaseid].description}}</div>
     <div class="ucv_attributes">
-      <div id="disciplines" class="ucv_attribute">
-	<div>Disciplines</div>
-	{% for d in site.data.usecases[include.usecaseid].disciplines %}
-	<div> {{ site.data.attributes.disciplines[d].name }}</div>
-	{% endfor %}
-      </div>
-      <div id="activites" class="ucv_attribute">
-	<div>Activities</div>
-	{% for d in site.data.usecases[include.usecaseid].activities%}
-	<div> {{ site.data.attributes.activities[d].name }}</div>
-	{% endfor %}
-      </div>
-      <div id="responding_organizations" class="ucv_attribute">
-	<div>Responding Organizations</div>
-	{% for d in site.data.usecases[include.usecaseid].resonding_organizations %}
-	<div> {{ site.data.attributes.responding_organizations[d].name }}</div>
-	{% endfor %}
-      </div>
-      <div id="actors" class="ucv_attribute">
-	<div>Actors</div>
-	{% for d in site.data.usecases[include.usecaseid].actors %}
-	<div> {{ site.data.attributes.actors[d].name }}</div>
-	{% endfor %}
-      </div>
-      <div id="technologies" class="ucv_attribute">
-	<div>Technologies</div>
-	{% for d in site.data.usecases[include.usecaseid].technologies %}
-	<div> {{ site.data.attributes.technologies[d].name }}</div>
-	{% endfor %}
-      </div>
-      <div id="cybersecurity_threats" class="ucv_attribute">
-	<div>Cyber Security Threats</div>
-	{% for d in site.data.usecases[include.usecaseid].cybersecurity_threats %}
-	<div> {{ site.data.attributes.cybersecurity_threats[d].name }}</div>
-	{% endfor %}
-      </div>
+      {% include usecasedisciplines.html usecaseid=include.usecaseid %}
+      {% include usecaserespondingorganizations.html usecaseid=include.usecaseid %}
+      {% include usecaseactivities.html usecaseid=include.usecaseid %}
+      {% include usecaseactors.html usecaseid=include.usecaseid %}
+      {% include usecasetechnologies.html usecaseid=include.usecaseid %}
+      {% include usecasecybersecuritythreats.html usecaseid=include.usecaseid %}
     </div>
   </div>
   <div class="information_types" class="ucv_attribute">

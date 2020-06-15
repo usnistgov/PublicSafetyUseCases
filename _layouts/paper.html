@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="w3-sidebar w3-bar-block" style="20%">
+<div class="w3-sidebar w3-bar-block toc_menu">
 {% for chapter in site.chapters %}
     <a href= "{{ '#' | append: chapter.anchor_name }}" class="w3-bar-item w3-button">{{ chapter.name }}</a>
 {% endfor %}

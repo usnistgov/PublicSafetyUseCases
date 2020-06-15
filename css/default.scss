@@ -1,7 +1,7 @@
 ---
 #Main css file 
 ---
-@import "report_images";
+@import "report";
 
 /* Global */
 div.content{
@@ -54,6 +54,10 @@ div.usecase{
   padding: 1em;
 }
 
+div.usecase > h1{
+	font-weight: bold;
+}
+
 div.ucv_name{
   width: 100%;
 }
@@ -63,7 +67,6 @@ div.ucv_container{
 }
 div.ucv_description{
   font-family: Arial, Helvetica, sans-serif;
-  border: solid;
   background: #f2fcff;
   padding: .5em;
 }
