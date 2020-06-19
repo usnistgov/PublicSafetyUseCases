@@ -1,0 +1,60 @@
+<div id={{ include.informationtypeid }} class="information_type_detail">
+  {% assign cur_it = site.data.attributes.information_types[include.informationtypeid] %}
+  {% assign confidentiality = cur_it.triad_rating['confidentiality'] %} 
+  {% assign integrity = cur_it.triad_rating['integrity'] %} 
+  {% assign availability = cur_it.triad_rating['availability'] %} 
+ 
+  <table class="information_type_detail">
+    <tr>
+      <th style="width: 35%" > {{ cur_it.name}} </th>
+      <th>
+	<table class="ucv_information_types" >
+	  <tr style="">
+	    <th style="width: 33%; text-align: center">
+	      Confidentiality
+	    </th>
+	    <th style="width: 33%; text-align: center">
+	      Integrity
+	    </th>
+	    <th style="width: 33%; text-align: center">
+	      Availability
+	    </th>
+	  </tr>
+	  <tr>
+	    <td class="{{ confidentiality }}">
+	      {{ confidentiality }}
+	    </td>
+	    <td class="{{ integrity }}">
+	      {{ integrity }}
+	    </td>
+	    <td class="{{ availability }}">
+	      {{ availability }}
+	    </td>
+	  </tr>
+	</table>
+      </th>
+    </tr>
+    <tr>
+      <td colspan=2> {{ cur_it.description }} </td>
+    </tr>
+    <tr>
+      <td colspan=2 class="sub_heading">Information Category & Supporting References </td>
+    </tr>
+    {% for it_c in cur_it.information_categories%}
+    <tr>
+      <td colspan=2>
+	<p><b>{{ it_c.name }} -</b> {{ it_c.description}}</p>
+	<ul>
+	{% for r in it_c.resource_links %}
+	  {% if r.bib_ref %}
+	  <li>{% include reference.html id=r.bib_ref %} </li> 
+	  {% else %}  
+	  <li><a href="{{ r.href }}" class="external"> {{ r.hyperlink_name }} </a> - {{ r.description }}</li>
+	  {% endif %}
+	{% endfor %}
+      </ul>
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>

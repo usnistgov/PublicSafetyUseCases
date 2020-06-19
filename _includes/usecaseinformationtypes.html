@@ -1,0 +1,39 @@
+<div class="ucv_information_types">
+  <div>Information Types</div>
+  <table>
+    <tr>
+      <th>
+	Name
+      </th>
+      <th>
+	Confidentiality
+      </th>
+      <th>
+	Integrity
+      </th>
+      <th>
+	Availability
+      </th>
+    </tr>
+    {% for info_type_id in site.data.usecases[include.usecaseid].information_types %}
+    {% assign confidentiality = site.data.attributes.information_types[info_type_id].triad_rating['confidentiality'] %} 
+    {% assign integrity = site.data.attributes.information_types[info_type_id].triad_rating['integrity'] %} 
+    {% assign availability = site.data.attributes.information_types[info_type_id].triad_rating['availability'] %} 
+    <tr>
+      <td>
+	{{ site.data.attributes.information_types[info_type_id].name}}
+      </td>
+      <td class="{{ confidentiality }}">
+	{{ confidentiality }}
+      </td>
+      <td class="{{ integrity }}">
+	{{ integrity }}
+      </td>
+      <td class="{{ availability }}">
+	{{ availability }} 
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+

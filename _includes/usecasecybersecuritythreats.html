@@ -1,0 +1,6 @@
+<div id="cybersecurity_threats" class="ucv_attribute">
+  <div>Cyber Security Threats</div>
+  {% for d in site.data.usecases[include.usecaseid].cybersecurity_threats %}
+  <div> {{ site.data.attributes.cybersecurity_threats[d].name }}</div>
+  {% endfor %}
+</div>

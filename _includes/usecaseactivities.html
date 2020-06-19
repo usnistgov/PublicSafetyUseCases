@@ -1,0 +1,7 @@
+<div id="activites" class="ucv_attribute">
+  <div>Activities</div>
+  {% for d in site.data.usecases[include.usecaseid].activities%}
+  <div> {{ site.data.attributes.activities[d].name }}</div>
+  {% endfor %}
+</div>
+

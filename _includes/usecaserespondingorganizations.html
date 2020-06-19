@@ -1,0 +1,7 @@
+<div id="responding_organizations" class="ucv_attribute">
+  <div>Responding Organizations</div>
+  {% for d in site.data.usecases[include.usecaseid].responding_organizations %}
+  <div> {{ site.data.attributes.responding_organizations[d].name }}</div>
+  {% endfor %}
+</div>
+
