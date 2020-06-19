@@ -3,6 +3,14 @@
 ---
 @import "report";
 
+/* Theme colors */
+$bg1: #f2fcff;
+$bg2: #b7c6c9;
+
+$cia_low: #bcc9b7;
+$cia_medium: #c9c9b7;
+$cia_high: #c9b7b7;
+
 /* Global */
 div.content{
   margin: 1em 3em 0 3em;
@@ -67,7 +75,7 @@ div.ucv_container{
 }
 div.ucv_description{
   font-family: Arial, Helvetica, sans-serif;
-  background: #f2fcff;
+  background: $bg1;
   padding: .5em;
 }
 
@@ -75,20 +83,21 @@ div.ucv_attributes{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: .5em;
-  background: #b7c6c9;
+  background: $bg2;
   padding: .5em;
 }
 
 div.ucv_attribute{
-  background: #fafeff;
+  background: $bg1;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   padding: .5em;
 }
+
 div.ucv_attribute > div:first-child {
   font-weight: bold;
   text-transform: uppercase;
-  background: #b7c6c9;
+  background: $bg2;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -98,14 +107,61 @@ div.ucv_attribute > div:not(:first-child){
   padding-bottom: .25em;
 }
 
-div.ucv_information_types tr:first-child{
-  background: #b7c6c9;
-}
-
-div.ucv_information_types tr:nth-child(even){
-  background: #f2fcff;
-}
-
-div.ucv_information_types td:not(:first-child){
+div.ucv_information_types > div:first-child {
+  font-weight: bold;
+  text-transform: uppercase;
+  background: $bg2;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.ucv_information_types tr:first-child{
+  background: $bg2;
+}
+
+div.ucv_information_types > table{
+  background: $bg1;
+  margin-top: .25em;
+  width: 100%;
+}
+
+td.low{
+  background: $cia_low;
+  text-align: center;
+}
+
+td.medium{
+  background: $cia_medium;
+  text-align: center;
+}
+
+td.high{
+  background: $cia_high;
+  text-align: center;
+}
+
+div.information_type_detail table{
+  width: 100%;
+  background: $bg1;
+}
+
+div.information_type_detail th{
+  text-align: left;
+  text-size: large;
+  background: $bg2;
+}
+
+div.information_type_detail .sub_heading{
+  text-align: left;
+  font-weight: bold;
+}
+div.information_type_detail td:first-child{
+  width: 20%;
+}
+
+div.information_type_detail > div:first-child {
+  font-weight: bold;
+  background: $bg2;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }

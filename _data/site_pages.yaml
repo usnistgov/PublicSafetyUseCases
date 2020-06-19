@@ -7,13 +7,11 @@ pages:
   - title: Introduction
     icon: nav_report.png
     url: /introduction.html
-    description: | 
-      Lorem ippsum dolor sit amet, consectetur adipiscing elit. Nullam elementum sem fringilla lectus pulvinar aliquet. Phasellus fringilla sodales nulla in aliquam. Ut auctor sem urna, volutpat varius massa tincidunt sed. Integer mi odio, facilisis a pretium sit amet, pulvinar et risus. Nullam efficitur a nibh a ornare. Nullam consequat lacus non nulla lobortis sodales. Suspendisse potenti. Quisque vehicula, magna eu luctus feugiat, dui nunc rutrum arcu, et pulvinar purus mi vitae nunc. Duis luctus ipsum eget sagittis imperdiet. Aliquam ultrices tincidunt odio, a hendrerit felis laoreet sit amet. Aenean accumsan a diam nec scelerisque.
-
+    description: Start here if you are interested in learning what the Use Case Project is all about.
   - title: Example Data
     icon: nav_data.png
     url: usecases.html
-    description: 
+    description:
     items:
             - title: "Use Cases"
               url: /usecases.html
@@ -21,9 +19,13 @@ pages:
             - title: "Attributes"
               url: "/attributes.html"
               description: 
+  - title: References
+    icon: nav_data.png
+    url: references.html
+    description:  
 
   - title: Atlas
     icon: GitHub-Mark-120px-plus.png
     url: http://github.com
     external: True
-    description: 
+    description: This is the link to the Git Hub repository for Atlas - a tool that can help collect, categorize, and sort use cases.

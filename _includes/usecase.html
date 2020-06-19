@@ -15,11 +15,7 @@
       {% include usecasecybersecuritythreats.html usecaseid=include.usecaseid %}
     </div>
   </div>
-  <div class="information_types" class="ucv_attribute">
-    <div>Information Types</div>
-	{% for d in site.data.usecases[include.usecaseid].information_types%}
-	<div> {{ site.data.attributes.information_types[d].name }}</div>
-	{% endfor %}
 
-  </div>
+  {% include usecaseinformationtypes.html usecaseid=include.usecaseid %}
+
 </div>
