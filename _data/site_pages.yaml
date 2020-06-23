@@ -7,7 +7,7 @@ pages:
   - title: Introduction
     icon: nav_report.png
     url: /introduction.html
-    description: Start here if you are interested in learning what the Use Case Project is all about.
+    description: "Start here for a primer on the Use Case Project."
   - title: Example Data
     icon: nav_data.png
     url: usecases.html
@@ -15,14 +15,16 @@ pages:
     items:
             - title: "Use Cases"
               url: /usecases.html
-              description: 
+              icon: "nav_usecases.png"
+              description: A small collection of scenarios we framed as Use Cases
             - title: "Attributes"
               url: "/attributes.html"
-              description: 
+              icon: "nav_data.png"
+              description: The full list of attributes we captured during the lifetime of the project
   - title: References
-    icon: nav_data.png
+    icon: nav_references.png
     url: references.html
-    description:  
+    description: The references page contains a list of useful documments.
 
   - title: Atlas
     icon: GitHub-Mark-120px-plus.png

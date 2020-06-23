@@ -6,17 +6,20 @@ layout: default
   {{ content }}
 </div>
 
-<div class="home_nav content">
+<div class="home_nav">
+  {% assign cur_item = site.data.site_pages.pages[1] %}
+  {% include home_nav_item.html nav_item=cur_item %}
 
-  {% for item in site.data.site_pages.pages %}
-    {% if item.title != "Home" %}
-      <div class="home_nav_item">
-	<a href="{{ item.url }}"><img src="img/{{ item.icon }}" class="icon"><figcaption class="home_nav">{{ item.title }}</figcaption></a>
-      </div>
-      <div class="home_nav_description">
-	  {{ item.description }}
-      </div>
-    {% endif %}
-  {% endfor %}
+  {% assign cur_item = site.data.site_pages.pages[3] %}
+  {% include home_nav_item.html nav_item=cur_item %}
+
+  {% assign cur_item = site.data.site_pages.pages[2].items[0] %}
+  {% include home_nav_item.html nav_item=cur_item %}
+
+  {% assign cur_item = site.data.site_pages.pages[2].items[1] %}
+  {% include home_nav_item.html nav_item=cur_item %}
+
+  {% assign cur_item = site.data.site_pages.pages[4] %}
+  {% include home_nav_item.html nav_item=cur_item %}
+
 </div>
-
