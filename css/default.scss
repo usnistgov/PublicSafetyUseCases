@@ -11,6 +11,10 @@ $cia_low: #bcc9b7;
 $cia_medium: #c9c9b7;
 $cia_high: #c9b7b7;
 
+body{
+  min-height: 50%;
+}
+
 /* Global */
 div.content{
   margin: 1em 3em 0 3em;
@@ -176,4 +180,8 @@ div.information_type_detail > div:first-child {
   background: $bg2;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+div#nistfootergoeshere{
+  z-index: -1;
 }
