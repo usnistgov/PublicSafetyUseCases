@@ -1,0 +1,143 @@
+{
+    "national2004model": {
+        "ISBN": "0-87939-217-7 978-0-87939-217-8",
+        "URL": "https://books.google.com/books?id=H-51JgAACAAJ",
+        "author": [
+            {
+                "family": "Procedures",
+                "given": "Model"
+            },
+            {
+                "family": "Committee",
+                "given": "National Fire Service Incident Management System Consortium. Model Procedures"
+            }
+        ],
+        "id": "national2004model",
+        "issued": {
+            "date-parts": [
+                [
+                    2003
+                ]
+            ]
+        },
+        "keyword": "Highrise buildings,Incident command system,National Interagency Incident Management System",
+        "page": "191",
+        "publisher": "Fire Protection Publications, Oklahoma State University",
+        "title": "Model procedures guide for high-rise firefighting",
+        "type": "book",
+        "volume": "2nd"
+    },
+    "Procedures": {
+        "ISBN": "0879392436",
+        "author": [
+            {
+                "family": "Procedures",
+                "given": "Model"
+            }
+        ],
+        "id": "Procedures",
+        "title": "Guide for Highway Incidents Guide for Highway Incidents",
+        "type": "book"
+    },
+    "Group2020": {
+        "author": [
+            {
+                "family": "Group",
+                "given": "Development"
+            },
+            {
+                "family": "Committee",
+                "given": "Administrative"
+            },
+            {
+                "family": "Group",
+                "given": "References Working"
+            }
+        ],
+        "id": "Group2020",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "title": "Master Glossary Of 9-1-1 Terminology Copyright 2020 National Emergency Number Association , Inc . NENA Master Glossary of 9-1-1 Terminology",
+        "type": "article-journal"
+    },
+    "Ogata": {
+        "URL": "http://nvlpubs.nist.gov/nistpubs/ir/2016/NIST.IR.8135.pdf",
+        "abstract": "The Association of Public-Safety Communications (APCO), in cooperation with FirstNet and the Department of Commerce held a half-day workshop on June 2, 2015, \u201cIdentifying and Categorizing Data Types for Public Safety Mobile Applications.\u201d The goal of this workshop was to begin identifying different types of data that will flow through applications that operate on the National Public Safety Broadband Network (NPSBN). A diverse group of first responders, industry leaders, and government representatives attended the workshop. This document describes the workshop and captures the input received from the workshop attendees.",
+        "author": [
+            {
+                "family": "Ogata",
+                "given": "Michael"
+            }
+        ],
+        "id": "Ogata",
+        "keyword": "\"communication,FirstNet,cybersecurity,first responders,mobile applications,public safety\"",
+        "title": "Identifying and Categorizing Data Types for Public Safety Mobile Applications : Workshop Report",
+        "type": "article-journal"
+    },
+    "Same": {
+        "author": [
+            {
+                "family": "Same",
+                "given": "Definining"
+            },
+            {
+                "family": "Using",
+                "given": "Document"
+            },
+            {
+                "family": "Definition",
+                "given": "Same"
+            },
+            {
+                "family": "Building",
+                "given": "Abandoned"
+            },
+            {
+                "family": "Cables",
+                "given": "Abandoned"
+            },
+            {
+                "family": "Cables",
+                "given": "Abandoned"
+            }
+        ],
+        "id": "Same",
+        "title": "NFPA Glossary of Terms 2019 NFPA , Copyright 2019 National Fire Protection Association . All rights reserved .",
+        "type": "article-journal"
+    },
+    "Choong2017": {
+        "DOI": "10.6028/NIST.IR.8181",
+        "URL": "https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8181.pdf",
+        "author": [
+            {
+                "family": "Choong",
+                "given": "Yee-yin"
+            },
+            {
+                "family": "Greene",
+                "given": "Kristen"
+            },
+            {
+                "family": "Greene",
+                "given": "Kristen"
+            }
+        ],
+        "container-title": "Nist - Pscr",
+        "id": "Choong2017",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "39",
+        "title": "Incident Scenarios Collection for Public Safety Communications Incident Scenarios Collection for Public Safety Communications",
+        "type": "article-journal"
+    }
+}

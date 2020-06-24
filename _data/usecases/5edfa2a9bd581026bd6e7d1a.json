@@ -1,0 +1,25 @@
+{
+  "_id": "5edfa2a9bd581026bd6e7d1a",
+  "name": "WUI Fire - Midwest",
+  "source": "https://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8181.pdf",
+  "cybersecurity_threats": [],
+  "description": "<p><b>Region:</b> Midwest: East North Central</p><p><b>Location:</b> Rural </p><p><b>Time of year:</b>Tuesday in May</p><p>A report was received at 14:45 of a small outdoor fire on the side of a small road. When responders arrived on scene, the fire had grown significantly, requiring multiple responding organizations.</p><b>Considerations</b>: <ul><li>Initial weather condition: temperature 82\u00b0F, humidity 26%.</li><li>Initial winds were sustained at 12 mph (miles per hour), gusting to 21 mph out of the South-Southeast.</li><li>Wind direction changed frequently, and in different directions.</li><li>The area includes hundreds of buildings and primary residences.</li><li>Citizens were evacuated.</li><li>Various aircraft, tractor plows, and heavy dozers were resources used.</li><li>Fire, police, EMS, energy/natural resources, forest service, and highway departments responded.</li><li>Fire burned approximately 7400 acres.</li><li>Fire was finally 100% contained 2 days later</li></ul>",
+  "actors": [
+    "5d1c050308d7bb53c010cca0",
+    "5d1c050308d7bb53c010cca2"
+  ],
+  "responding_organizations": [],
+  "technologies": [],
+  "disciplines": [
+    "5d1c050308d7bb53c010ccad",
+    "5d1c050308d7bb53c010ccaf",
+    "5d1c050308d7bb53c010ccae"
+  ],
+  "locations": [],
+  "information_types": [],
+  "activities": [
+    "5d1fb8e008d7bb5408e2114b",
+    "5ee2904300cb135c1fa67a23"
+  ],
+  "concept_links": {}
+}

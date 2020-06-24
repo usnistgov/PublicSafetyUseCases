@@ -1,0 +1,51 @@
+{
+  "_id": "5d1c050308d7bb53c010cd54",
+  "activities": [
+    "5d1f6dfd08d7bb5408e21143",
+    "5d1f70aed1d1a624d8cb7014",
+    "5d1f7154d1d1a624d8cb7015"
+  ],
+  "actors": [
+    "5d1c050308d7bb53c010cc9c",
+    "5d1c050308d7bb53c010cc9d",
+    "5d1c050308d7bb53c010cc9e"
+  ],
+  "concept_links": {
+    "actors": [
+      "5d1c050308d7bb53c010cc9e"
+    ],
+    "disciplines": [
+      "5d1c050308d7bb53c010ccae"
+    ],
+    "information_types": [
+      "5d1c050308d7bb53c010cce0",
+      "5d1c050308d7bb53c010ccd1"
+    ],
+    "responding_organizations": [
+      "5d1c050308d7bb53c010cca6"
+    ]
+  },
+  "cybersecurity_threats": [],
+  "description": "<h3>Situation</h3>\nA three-car accident occurs in the outside lane (right shoulder) of a six-lane divided highway, 100 yards past an off-ramp. Only the outside lane is blocked by the vehicles. The time of day is 10:00 a.m. The driver in one of the cars is trapped and injured. Another of the involved vehicles has a minor gasoline leak.",
+  "disciplines": [
+    "5d1c050308d7bb53c010ccad",
+    "5d1c050308d7bb53c010ccaf",
+    "5d1c050308d7bb53c010ccae"
+  ],
+  "information_types": [
+    "5d1c050308d7bb53c010cce7",
+    "5d1c050308d7bb53c010ccd0"
+  ],
+  "locations": [
+    "5d1c050308d7bb53c010ccb0"
+  ],
+  "name": "THREE-CAR MOTOR VEHICLE ACCIDENT",
+  "responding_organizations": [
+    "5d1c050308d7bb53c010cca7",
+    "5d1c050308d7bb53c010ccac"
+  ],
+  "source": "",
+  "technologies": [
+    "5d1c050308d7bb53c010ccba"
+  ]
+}

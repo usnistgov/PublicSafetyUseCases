@@ -1,0 +1,36 @@
+{
+  "_id": "5d1c050308d7bb53c010cd5c",
+  "activities": [
+    "5d1f6dfd08d7bb5408e21143",
+    "5d1fb58108d7bb5408e21149"
+  ],
+  "actors": [
+    "5d1c050308d7bb53c010cca0",
+    "5d1c050308d7bb53c010cc9d",
+    "5d1c050308d7bb53c010cc9e"
+  ],
+  "cybersecurity_threats": [],
+  "description": "<h3>Situation</h3>\n<p>State police respond to reports of an active shooter in a office building. The incident commander is coordinating the sweep of the building in search of the perpetrator. Utilizing <b>building plans</b> The incident commander is able to guide law enforcement responders through the building. The commander is monitoring the <b>locations</b> of each of the officers engaged in the sweep. When </p>\n\n<p>Paramedics are staging themselves outside the building in preparation to triage victims</p>\n",
+  "disciplines": [
+    "5d1c050308d7bb53c010ccae"
+  ],
+  "information_types": [
+    "5d1fb1b3564a993760bd3e5d",
+    "5d1c050308d7bb53c010ccd2",
+    "5d1c050308d7bb53c010ccd1",
+    "5d1fb7ef08d7bb5408e2114a"
+  ],
+  "locations": [
+    "5d1c050308d7bb53c010ccb4"
+  ],
+  "name": "Search for an Active shooter",
+  "responding_organizations": [
+    "5d1f952b08d7bb5408e21147"
+  ],
+  "source": "https://www.apcointl.org/training-and-certification/continuing-dispatch-education-cde/resources-for-active-shooter-incidents/",
+  "technologies": [
+    "5d1c050308d7bb53c010ccba",
+    "5d1c050308d7bb53c010ccc1",
+    "5d1c050308d7bb53c010ccbd"
+  ]
+}

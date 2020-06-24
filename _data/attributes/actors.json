@@ -1,0 +1,62 @@
+{
+  "5d1c050308d7bb53c010cc9c": {
+    "description": "",
+    "name": "patients",
+    "resource_links": []
+  },
+  "5d1c050308d7bb53c010cc9d": {
+    "description": "",
+    "name": "paramedics",
+    "resource_links": []
+  },
+  "5d1c050308d7bb53c010cc9e": {
+    "description": "",
+    "name": "law enforcement Officer",
+    "resource_links": []
+  },
+  "5d1c050308d7bb53c010cc9f": {
+    "description": "",
+    "name": "suspects",
+    "resource_links": []
+  },
+  "5d1c050308d7bb53c010cca0": {
+    "description": "",
+    "name": "civilians",
+    "resource_links": []
+  },
+  "5d1c050308d7bb53c010cca1": {
+    "description": "",
+    "name": "victims",
+    "resource_links": []
+  },
+  "5d1c050308d7bb53c010cca2": {
+    "description": "",
+    "name": "fire fighters",
+    "resource_links": []
+  },
+  "5d1c050308d7bb53c010cca3": {
+    "description": "",
+    "name": "incident commander",
+    "resource_links": []
+  },
+  "5d1c050308d7bb53c010cca4": {
+    "description": "",
+    "name": "cab driver",
+    "resource_links": []
+  },
+  "5d5eea6799f441f46a91d6f1": {
+    "description": "",
+    "name": "fire marshal",
+    "resource_links": []
+  },
+  "5ee2941e00cb135c1fa67a25": {
+    "name": "dispatcher",
+    "description": "",
+    "resource_links": []
+  },
+  "5ee2947600cb135c1fa67a26": {
+    "name": "incident commander",
+    "description": "Individual responsible for the management of all incident operations",
+    "resource_links": []
+  }
+}

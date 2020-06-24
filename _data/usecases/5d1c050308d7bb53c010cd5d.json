@@ -1,0 +1,32 @@
+{
+  "_id": "5d1c050308d7bb53c010cd5d",
+  "activities": [
+    "5d1fc4e808d7bb5408e2114d"
+  ],
+  "actors": [
+    "5d1c050308d7bb53c010cc9f",
+    "5d1c050308d7bb53c010cc9e"
+  ],
+  "cybersecurity_threats": [],
+  "description": "On a traffic stop, an officer uses an app to contact the communications center and check out the vehicle, provide the location, a vehicle description, and run the license plate and driver ID against local, State, and Federal records.",
+  "disciplines": [
+    "5d1c050308d7bb53c010ccae"
+  ],
+  "information_types": [
+    "5d1c050308d7bb53c010cce2",
+    "5d1c050308d7bb53c010ccf9",
+    "5d1c050308d7bb53c010cd26"
+  ],
+  "locations": [
+    "5d1c050308d7bb53c010ccb7"
+  ],
+  "name": "Vehicle stop",
+  "responding_organizations": [
+    "5d1c050308d7bb53c010cca7"
+  ],
+  "source": "",
+  "technologies": [
+    "5d1c050308d7bb53c010ccba",
+    "5d1c050308d7bb53c010ccbb"
+  ]
+}

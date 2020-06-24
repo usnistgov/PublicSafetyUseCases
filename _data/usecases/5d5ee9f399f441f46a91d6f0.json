@@ -1,0 +1,24 @@
+{
+  "_id": "5d5ee9f399f441f46a91d6f0",
+  "activities": [
+    "5d5eefdb99f441f46a91d6f5"
+  ],
+  "actors": [
+    "5d1c050308d7bb53c010cca2",
+    "5d5eea6799f441f46a91d6f1"
+  ],
+  "concept_links": {},
+  "cybersecurity_threats": [],
+  "description": "<p>\nA train carrying <b>hazardous chemcials</b> derails 12 miles south of Silver City, Utah. Unknown amounts of various chemicals leaking from overturned railcars: phosphoric acid, sodium bicarbonate, diesel fuel, propane and 53% phosphoric anhydride. It is determined that destroying the railcars is the most expedient method for clearing the tracks. Using <b>modeling data</b> gathered from various sources, the <b>State Fire Marshal</b> safely destroys the derailed train cars.\n</p>\n\n",
+  "disciplines": [
+    "5d1c050308d7bb53c010ccaf"
+  ],
+  "information_types": [],
+  "locations": [],
+  "name": "Train Derailment with Hazardous Chemicals",
+  "responding_organizations": [
+    "5d1c050308d7bb53c010ccab"
+  ],
+  "source": "Utah State Fire Marshal",
+  "technologies": []
+}
