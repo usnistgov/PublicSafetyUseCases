@@ -1,7 +1,7 @@
 pages:
   - title: Home
     icon: nav_report.png
-    url: 
+    url: site.url + "/" + site.baseurl
     description: home page
 
   - title: Introduction
