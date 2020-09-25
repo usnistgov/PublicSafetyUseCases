@@ -22,8 +22,8 @@ title: Public Safety Use Cases
 email: michael.ogata@nist.gov
 description: >- # this means to ignore newlines until "baseurl:"
         This is the project write-up for the Public Safety Use Case project. The project explored the idea of using public safety use cases as a proxy for developing cyber security guidance for mobile apps.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "PublicSafetyUseCases" # the subpath of your site, e.g. /blog
+url: "https://pages.nist.gov" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  The-Chairman
 
