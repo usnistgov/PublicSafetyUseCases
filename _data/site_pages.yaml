@@ -1,12 +1,12 @@
 pages:
   - title: Home
     icon: nav_report.png
-    url: /
+    url: 
     description: home page
 
   - title: Introduction
     icon: nav_report.png
-    url: /introduction.html
+    url: introduction.html
     description: "Start here for a primer on the Use Case Project."
   - title: Example Data
     icon: nav_data.png
@@ -14,11 +14,11 @@ pages:
     description:
     items:
             - title: "Use Cases"
-              url: /usecases.html
+              url: usecases.html
               icon: "nav_usecases.png"
               description: A small collection of scenarios we framed as Use Cases
             - title: "Attributes"
-              url: "/attributes.html"
+              url: "attributes.html"
               icon: "nav_data.png"
               description: The full list of attributes we captured during the lifetime of the project
   - title: References
