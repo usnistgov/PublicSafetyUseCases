@@ -1,7 +1,7 @@
 pages:
   - title: Home
     icon: nav_report.png
-    url: site.url + "/" + site.baseurl
+    url: https://pages.nist.gov/PublicSafetyUseCases
     description: home page
 
   - title: Introduction
